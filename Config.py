@@ -14,4 +14,4 @@ class Config(object):
     CMD_IMG = os.environ.get("CMD_IMG", "https://telegra.ph/file/2183e7a2a308e46dd2d55.jpg")
     ASSISTANT_ID = int(os.environ.get("ASSISTANT_ID", "")) # telegram I'd not Username
     AUTO_LEAVE_TIME = int(os.environ.get("AUTO_LEAVE_ASSISTANT_TIME", "1000")) # in seconds
-    AUTO_LEAVE = os.environ.get('AUTO_LEAVING_ASSISTANT', True) # Change it to "True"
+    AUTO_LEAVE = os.environ.get('AUTO_LEAVING_ASSISTANT', None) # Change it to "True"
